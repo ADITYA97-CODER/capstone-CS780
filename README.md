@@ -68,37 +68,7 @@ This project focuses on training reinforcement learning agents for autonomous ex
   * RND (intrinsic rewards)
 * Modular design for easy experimentation
 
----
 
-## 🚀 How to Use
-
-### Training
-
-Run the respective script depending on the architecture:
-
-```bash
-python ppo_cnn.py
-python ppo_gru_un.py
-python ppo_ss_rnd.py
-```
-
----
-
-### Evaluation
-
-1. Extract the required submission zip:
-
-```bash
-unzip submission_cnn.zip
-# or
-unzip submission_gru.zip
-```
-
-2. Run the evaluation agent:
-
-```bash
-python agent.py
-```
 
 ---
 
